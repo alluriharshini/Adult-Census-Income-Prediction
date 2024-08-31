@@ -1,0 +1,35 @@
+race_ White
+capital_interaction
+age_bin_Senior
+education_ HS-grad
+hours_bin_Overtime
+income_to_education
+occupation_ Machine-op-inspct
+occupation_ Prof-specialty
+education_ Some-college
+log_capital_gain
+occupation_ Other-service
+occupation_ Sales
+income_to_hours
+workclass_ Self-emp-not-inc
+occupation_ Exec-managerial
+marital-status_ Married-AF-spouse
+education_Others
+sex_ Male
+marital-status_ Separated
+workclass_Others
+relationship_ Other-relative
+hours_bin_Part-time
+capital-loss
+marital-status_ Never-married
+age_bin_Young
+relationship_ Own-child
+race_ Asian-Pac-Islander
+relationship_ Wife
+occupation_Others
+workclass_ Local-gov
+relationship_ Not-in-family
+capital-gain
+relationship_ Unmarried
+log_capital_loss
+occupation_ Adm-clerical
