@@ -1,7 +1,7 @@
 # Adult-Census-Income-Prediction
-`EDA.ipynb`: "Perform exploratory data analysis (EDA) to understand data distribution, identify patterns, and detect anomalies."
+EDA.ipynb: "Perform exploratory data analysis (EDA) to understand data distribution, identify patterns, and detect anomalies."
 
-`Model_training_testing.ipynb`: "Train, validate, and test machine learning models with hyperparameter tuning, feature selection, and removal of multicollinearity to optimize salary prediction."
+Model_training_testing.ipynb: "Train, validate, and test machine learning models with hyperparameter tuning, feature selection, and removal of multicollinearity to optimize salary prediction."
 
 ```bash
 flask_app/
