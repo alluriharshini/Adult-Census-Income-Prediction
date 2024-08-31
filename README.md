@@ -1,4 +1,5 @@
 # Adult-Census-Income-Prediction
+```bash
 flask_app/
 │
 ├── app/
@@ -24,7 +25,7 @@ flask_app/
 │
 ├── requirements.txt
 └── run.py
-
+```
 To execute the Flask application:
 1. Navigate to the root of the project.
 2. Install dependencies using:
