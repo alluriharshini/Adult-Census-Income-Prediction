@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Prediction Result</title>
+</head>
+<body>
+    <h2>Prediction Result:</h2>
+    <p>{{ 'High Income (>50K)' if prediction == 1 else 'Low Income (<=50K)' }}</p>
+    <a href="{{ url_for('main.index') }}">Go back to the prediction form</a>
+</body>
+</html>

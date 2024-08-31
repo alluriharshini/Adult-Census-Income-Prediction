@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/styles.css') }}">
+    <title>Salary Prediction</title>
+</head>
+<body>
+    <h1>Predict Salary</h1>
+    <form method="post" action="{{ url_for('main.index') }}">
+        {{ form.hidden_tag() }}
+        <div>
+            {{ form.age.label}} {{ form.age }}
+        </div>
+        
+        <div>
+            {{ form.workclass.label }} {{ form.workclass }}
+        </div>
+        <div>
+            {{ form.fnlwgt.label}} {{ form.fnlwgt }}
+        </div>
+        <div>
+            {{ form.education.label }} {{ form.education }}
+        </div>
+
+        <div>
+            {{ form.education_num.label }} {{ form.education_num }}
+        </div>
+
+        <div>
+            {{ form.marital_status.label }} {{ form.marital_status }}
+        </div>
+
+        <div>
+            {{ form.occupation.label }} {{ form.occupation }}
+        </div>
+
+        <div>
+            {{ form.relationship.label }} {{ form.relationship }}
+        </div>
+
+        <div>
+            {{ form.race.label }} {{ form.race }}
+        </div>
+
+        <div>
+            {{ form.sex.label }} {{ form.sex }}
+        </div>
+
+        <div>
+            {{ form.capital_gain.label }} {{ form.capital_gain }}
+        </div>
+
+        <div>
+            {{ form.capital_loss.label }} {{ form.capital_loss }}
+        </div>
+
+        <div>
+            {{ form.hours_per_week.label }} {{ form.hours_per_week }}
+        </div>
+
+        <div>
+            {{ form.country.label }} {{ form.country }}
+        </div>
+
+        <div>
+            {{ form.submit() }}
+        </div>
+    </form>
+</body>
+</html>
