@@ -12,6 +12,8 @@ flask_app/
 │   │   ├── preprocess.py
 │   │   ├── predict.py
 │   │   └── model.pkl
+|   |   |__ preprocessor.pkl
+|   |   |__ selected_features.txt
 │   ├── templates/
 │   │   ├── index.html
 │   │   ├── predict.html
